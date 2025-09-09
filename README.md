@@ -8,6 +8,9 @@ Proyek ini menampilkan 6 chatbot Islami dengan spesialisasi berbeda: fiqh prakti
 [![Vercel Deploy](https://img.shields.io/badge/deployed%20on-vercel-black?logo=vercel)](https://smartfaithshowcase.vercel.app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+> ⭐ Jangan lupa kasih **star** di repo ini kalau menurutmu bermanfaat!  
+> Bantu dukung agar proyek ini terus berkembang 🚀
+
 ---
 
 ## ✨ Fitur
