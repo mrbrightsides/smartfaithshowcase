@@ -81,9 +81,14 @@ export default function BotDetailPage({ params }: { params: { bot: string } }) {
         </section>
 
         <div className="flex gap-3">
-          <Link href={`/${params.bot}`} className="...">
+          <a
+            href="https://smartfaith.streamlit.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-xl bg-white px-4 py-2 font-medium text-black hover:opacity-90"
+          >
             Coba {bot.name} <ArrowRight className="h-4 w-4" />
-          </Link>
+          </a>
 
           <Link
             href="/"
@@ -101,3 +106,4 @@ export default function BotDetailPage({ params }: { params: { bot: string } }) {
   );
 
 }
+
