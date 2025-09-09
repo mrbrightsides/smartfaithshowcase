@@ -102,7 +102,7 @@ export default function SmartFaithLanding() {
           <span className="font-semibold tracking-wide">SmartFaith</span>
         </Link>
         <div className="flex items-center gap-3">
-          <Button href="#bots" variant="ghost">Bot Showcase</Button>
+          <Button href="https://smartfaith.streamlit.app/" variant="ghost">SmartFaith App</Button>
           <Button href="https://github.com/mrbrightsides/islamichat" className="">GitHub</Button>
         </div>
       </header>
@@ -206,6 +206,7 @@ export default function SmartFaithLanding() {
     </main>
   );
 }
+
 
 
 
