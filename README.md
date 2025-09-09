@@ -5,6 +5,9 @@ Proyek ini menampilkan 6 chatbot Islami dengan spesialisasi berbeda: fiqh prakti
 
 🔗 Live Demo: [smartfaithshowcase.vercel.app](https://smartfaithshowcase.vercel.app)
 
+[![Vercel Deploy](https://img.shields.io/badge/deployed%20on-vercel-black?logo=vercel)](https://smartfaithshowcase.vercel.app)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ---
 
 ## ✨ Fitur
@@ -13,6 +16,12 @@ Proyek ini menampilkan 6 chatbot Islami dengan spesialisasi berbeda: fiqh prakti
 - 🤖 Showcase 6 bot Islami (FiqhBot, SirahBot, TarikhBot, NusantaraBot, MuamalahBot, GenZBot)
 - ⚡ Animasi ringan dengan Framer Motion
 - 📄 Halaman dokumentasi singkat
+
+---
+
+## 📸 Tampilan
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/29ec4af1-11aa-4442-bc0e-c1108877f3e1" />
 
 ---
 
