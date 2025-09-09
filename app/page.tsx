@@ -1,7 +1,9 @@
 "use client";
 import { ArrowRight, BookOpen, Landmark, Scale, Sparkles, Users, Wallet, Bot } from "lucide-react";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { motion, type Variants, cubicBezier } from "framer-motion";
+
+const easeOutExpo = cubicBezier(0.16, 1, 0.3, 1);
 
 // --- Simple shadcn/ui stand-ins --- //
 const Card = ({ className = "", children }: any) => (
@@ -29,9 +31,13 @@ const Button = ({ href, children, className = "", variant = "default" }: any) =>
 };
 
 // --- Animations --- //
-const fadeUp = {
+const fadeUp: Variants = {
   hidden: { opacity: 0, y: 20 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.16, 1, 0.3, 1] } },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.5, ease: easeOutExpo },
+  },
 };
 
 // --- Data: 6 bots --- //
@@ -200,4 +206,5 @@ export default function SmartFaithLanding() {
     </main>
   );
 }
+
 
