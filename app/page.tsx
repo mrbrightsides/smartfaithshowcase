@@ -200,11 +200,12 @@ export default function SmartFaithLanding() {
       <footer className="mx-auto w-full max-w-6xl px-6 pb-12 text-center text-sm text-white/60">
         <p className="mb-1">SmartFaith – Ruang belajar Islami berbasis multi‑bot.</p>
         <p>
-          Code & issues di <Link href="https://github.com/mrbrightsides/landingsmartfaith" className="underline underline-offset-4">GitHub</Link>. Gen Z butuh arah, Islam kasih cahaya 🌙
+          Code & issues di <Link href="https://github.com/mrbrightsides/smartfaithshowcase" className="underline underline-offset-4">GitHub</Link>. Gen Z butuh arah, Islam kasih cahaya 🌙
         </p>
       </footer>
     </main>
   );
 }
+
 
 
