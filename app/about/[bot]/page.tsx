@@ -81,12 +81,10 @@ export default function BotDetailPage({ params }: { params: { bot: string } }) {
         </section>
 
         <div className="flex gap-3">
-          <Link
-            href={`/${params.bot}`}
-            className="inline-flex items-center gap-2 rounded-xl bg-white px-4 py-2 font-medium text-black hover:opacity-90"
-          >
+          <Link href={`/${params.bot}`} className="...">
             Coba {bot.name} <ArrowRight className="h-4 w-4" />
           </Link>
+
           <Link
             href="/"
             className="inline-flex items-center gap-2 rounded-xl border border-white/20 px-4 py-2 font-medium hover:opacity-90"
@@ -101,4 +99,5 @@ export default function BotDetailPage({ params }: { params: { bot: string } }) {
       </div>
     </main>
   );
+
 }
